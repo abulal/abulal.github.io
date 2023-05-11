@@ -81,7 +81,7 @@ h3{
 .newsletter form input:first-child{
     display: inline-block; 
     width : 100px; 
-    padding: 14px 130px 1px 15px; 
+    
     border: 2px solid #f9004d;
     outline: none; 
     border-radius: 30px; 
