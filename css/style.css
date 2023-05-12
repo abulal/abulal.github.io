@@ -80,18 +80,75 @@ h3{
 }
 .newsletter form input:first-child{
     display: inline-block; 
-    width : 100px; 
-    
+    width : 400px; 
+    padding: 14px 13px 12px 16px; 
     border: 2px solid #f9004d;
     outline: none; 
     border-radius: 30px; 
 }
 .newsletter form input:last-child{
-    poosition: absolute; 
+    position: absolute; 
     display: inline-block; 
     outline: none; 
     border: none; 
     padding: 10px 30px;
+    border-radius: 30px; 
+    background-color:#f9004d;
+    color:white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px; 
+    left: 190px;
 }
+.about{
+    width: 100%;
+    padding: 100px 0px; 
+    background-color: #191919;
+}
+.about img{
+    height:auto;
+}
+.about-text{
+    width: 550px; 
+}
+.main{
+    width: 1130px; 
+    max-width: 95%;
+    margin: 0 auto; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
 
-
+}
+.about-text h2{
+    color: white; 
+    font-size: 75px; 
+    text-transform: capitalize;
+    margin-bottom : 20px; 
+}
+.about-text h5{
+    color: white; 
+    letter-spacing: 2;
+    font-size: 22px; 
+    margin-bottom: 25px; 
+    text-transform: capitalize; 
+}
+.about-text p{
+    color: #fcfc;
+    letter-spacing:1px; 
+    font-size: 18px; 
+    line-height: 28px; 
+    margin-bottom: 45px; 
+}
+.box{
+    width: 1120px;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.box h2{
+    
+        color: white; 
+        font-size: 75px; 
+        text-transform: capitalize;
+        margin-bottom : 20px; 
+    
+}
